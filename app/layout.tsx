@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import clsx from 'clsx';
 import './globals.css';
@@ -41,6 +41,10 @@ export const metadata: Metadata = {
   robots: 'index, follow',
 };
 
+export const viewport: Viewport = {
+  themeColor: '#1c1917',
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -48,7 +52,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang='fr'>
-      <body className={clsx(inter.className, 'h-full bg-zinc-900')}>
+      <body
+        className={clsx(
+          inter.className,
+          'h-full bg-zinc-900 selection:bg-[#1db954]/90'
+        )}
+      >
         {children}
       </body>
     </html>
