@@ -5,6 +5,7 @@ import { Badge } from './badge';
 type Project = {
   name: string;
   description: string;
+  tempIcon?: string;
   link: string;
   icon: string;
   stack: string[];
@@ -30,10 +31,17 @@ const ProjectCard = ({ project }: { project: Project }) => {
       className='mt-14 block border border-transparent md:mt-4 md:rounded-md md:p-4 lg:transition-all lg:hover:border lg:hover:border-[#1db954]/5 lg:hover:bg-[#1db954]/5'
     >
       <div className='text-1xl flex gap-2 font-medium text-white/80 '>
-        <div className='flex h-10 w-10 items-center rounded-md bg-zinc-900 p-1'>
-          <img src={project.icon} alt={project.name} className='object-cover' />
+        <div className='flex h-10 w-10 items-center justify-center rounded-md bg-zinc-900 p-1'>
+          {project.icon === 'soon' ? (
+            project?.tempIcon
+          ) : (
+            <img
+              src={project.icon}
+              alt={project.name}
+              className='object-cover'
+            />
+          )}
         </div>
-
         {project.name}
       </div>
       <p className='mt-4 leading-normal text-white/80'>{project.description}</p>

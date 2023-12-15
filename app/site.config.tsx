@@ -23,10 +23,11 @@ export const siteConfig = {
   ],
   projects: [
     {
-      icon: 'https://www.opoilchic.com',
+      icon: 'soon',
+      tempIcon: 'OC',
       name: 'Opoilchic',
       description:
-        'Opoilchic : Colliers sur mesure pour animaux - Création française.',
+        "Création d'une boutique Shopify vendant des colliers personnalisés pour chiens et chats.",
       stack: ['Shopify', 'Liquid'],
       link: 'https://www.opoilchic.com',
     },
