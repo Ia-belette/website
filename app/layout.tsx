@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import clsx from 'clsx';
 import './globals.css';
 import { siteConfig } from './site.config';
 
@@ -47,7 +48,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='fr'>
-      <body className={inter.className}>{children}</body>
+      <body className={clsx(inter.className, 'h-full bg-zinc-900')}>
+        {children}
+      </body>
     </html>
   );
 }
