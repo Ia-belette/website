@@ -30,6 +30,10 @@ export const siteConfig = {
         "Création d'une boutique Shopify vendant des colliers personnalisés pour chiens et chats.",
       stack: ['Shopify', 'Liquid'],
       link: 'https://www.opoilchic.com',
+      date: {
+        start: '14/12/2023',
+        end: 'Present',
+      },
     },
     {
       icon: 'https://www.focusedshares.com/icon.png',
@@ -37,6 +41,10 @@ export const siteConfig = {
       description: `Application dédiée au partage de vidéos YouTube de musique Lofi, Jazz, Chillhop, etc., spécialement conçue pour favoriser la concentration.`,
       stack: ['Next.js', 'Panda CSS', 'Cloudflare'],
       link: 'https://focusedshares.com/',
+      date: {
+        start: '01/12/2023',
+        end: 'Present',
+      },
     },
     {
       icon: 'https://atelier.qru.pet/assets/logo_qru.d8327dd1.svg',
@@ -44,6 +52,10 @@ export const siteConfig = {
       description: `Authentification, gestion des animaux et intégration Stripe dans une app e-commerce.`,
       stack: ['React', 'MUI'],
       link: 'https://atelier.qru.pet/',
+      date: {
+        start: '03/04/2023',
+        end: '24/11/2023',
+      },
     },
     {
       icon: 'https://atelier.qru.pet/assets/logo_qru.d8327dd1.svg',
@@ -51,6 +63,10 @@ export const siteConfig = {
       description: `Gestion de l'UI et de l'authentification via l'API interne.`,
       stack: ['React', 'ReactBootstrap', 'Bootstrap'],
       link: 'https://relais.qru.pet/',
+      date: {
+        start: '19/12/2022',
+        end: '03/04/2023',
+      },
     },
   ],
   footerLink: [

@@ -9,6 +9,10 @@ type Project = {
   link: string;
   icon: string;
   stack: string[];
+  date: {
+    start: string;
+    end: string;
+  };
 };
 
 export const Projects = () => (
@@ -45,7 +49,9 @@ const ProjectCard = ({ project }: { project: Project }) => {
         {project.name}
       </div>
       <p className='mt-4 leading-normal text-white/80'>{project.description}</p>
-
+      <p className='mt-4 text-sm leading-normal text-white/80'>
+        {project.date.start} - {project.date.end}
+      </p>
       <div className='mt-4 flex flex-wrap gap-2'>
         {project.stack.map((stack: any) => (
           <Badge key={stack}>{stack}</Badge>
