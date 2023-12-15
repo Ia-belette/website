@@ -1,5 +1,5 @@
-import { Spotlight } from './components/spotlight';
+import { GridContainer } from './components/grid-container';
 
 export default function Home() {
-  return <>Home</>;
+  return <GridContainer>Home</GridContainer>;
 }

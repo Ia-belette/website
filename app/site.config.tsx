@@ -1,5 +1,6 @@
 export const siteConfig = {
   title: 'Développeur web',
+  full_name: 'Dereje GETU TADESSE',
   description: (
     <p className='mb-14 leading-normal'>
       Hey 👋 je suis <strong>Dereje Getu Tadesse</strong> Un développeur{'  '}
