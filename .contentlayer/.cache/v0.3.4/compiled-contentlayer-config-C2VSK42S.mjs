@@ -45,6 +45,7 @@ var contentlayer_config_default = makeSource({
   mdx: {
     rehypePlugins: [
       [
+        // @ts-ignore
         rehypePrettyCode,
         {
           theme: "one-dark-pro",
@@ -62,4 +63,4 @@ var contentlayer_config_default = makeSource({
 export {
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-FLRGEJ4G.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-C2VSK42S.mjs.map

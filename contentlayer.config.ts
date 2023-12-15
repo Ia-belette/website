@@ -47,6 +47,7 @@ export default makeSource({
   mdx: {
     rehypePlugins: [
       [
+        // @ts-ignore
         rehypePrettyCode,
         {
           theme: 'one-dark-pro',
