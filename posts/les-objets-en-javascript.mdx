@@ -12,7 +12,7 @@ Les objets sont une composante fondamentale de JavaScript. Dans cet article, nou
 
 Prenons un exemple simple pour illustrer comment créer un objet en JavaScript :
 
-```js /person/
+```js
 const person = {
   firstName: 'Jane',
   lastName: 'Doe',
@@ -30,7 +30,7 @@ console.log(person.lastName); // Affiche Doe
 
 Cela montre comment afficher le nom et le prénom d’une personne. On peut également créer une fonction pour afficher le nom complet :
 
-```js /fullName/ /fullName()/
+```js 
 const person = {
   firstName: 'Jane',
   lastName: 'Doe',
@@ -52,7 +52,7 @@ L’opérateur this est utilisé pour accéder aux propriétés de l’objet cou
 
 Pour supprimer une propriété :
 
-```js /delete/
+```js 
 delete person.age; // Supprime la propriété age
 ```
 
@@ -62,7 +62,7 @@ La méthode **delete** supprimara la propriété **age** de l'objet **person**.
 
 Pour ajouter une nouvelle propriété :
 
-```js /birthday/
+```js 
 person.birthday = '01/01/1980'; // Ajoute la propriété birthday
 ```
 
@@ -82,7 +82,7 @@ for (let key in person) {
 
 On peut aussi imbriquer un objet :
 
-```js /address/
+```js
 const personne = {
   prenom: 'John',
   nom: 'Doe',
