@@ -6,6 +6,8 @@ import { Posts } from './components/posts';
 import { Projects } from './components/project';
 import { RightSide } from './components/right-side';
 
+export const runtime = 'edge';
+
 export default function Home() {
   return (
     <GridContainer>

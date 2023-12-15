@@ -1,5 +1,4 @@
 import { allPosts } from 'contentlayer/generated';
-import { getMDXComponent } from 'next-contentlayer/hooks';
 import { format, parseISO } from 'date-fns';
 import fr from 'date-fns/locale/fr';
 import { notFound } from 'next/navigation';
