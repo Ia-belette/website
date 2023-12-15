@@ -1,4 +1,5 @@
 import { About } from './components/about';
+import { Footer } from './components/footer';
 import { GridContainer } from './components/grid-container';
 import { Header } from './components/header';
 import { Projects } from './components/project';
@@ -11,6 +12,7 @@ export default function Home() {
       <RightSide>
         <About />
         <Projects />
+        <Footer />
       </RightSide>
     </GridContainer>
   );
