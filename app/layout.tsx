@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import clsx from 'clsx';
 import './globals.css';
 import { siteConfig } from './site.config';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -52,6 +53,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang='fr'>
+      <head>
+        <Script
+          async
+          src='https://analytics.umami.is/script.js'
+          data-website-id='d76e4153-562f-4dcc-b239-d346dfe85bb8'
+        />
+      </head>
       <body
         className={clsx(
           inter.className,
