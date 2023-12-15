@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import { useMDXComponent } from 'next-contentlayer/hooks';
+// @ts-ignore
 import type { MDXComponents } from 'mdx/types';
 
 const components = {
