@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import './globals.css';
 import { siteConfig } from './site.config';
 import Script from 'next/script';
+import { Widget } from './components/whatsapp-widget';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -67,6 +68,7 @@ export default function RootLayout({
         )}
       >
         {children}
+        <Widget />
       </body>
     </html>
   );

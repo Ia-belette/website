@@ -1,6 +1,6 @@
 import { Spotify } from './spotify';
 import { Profile } from './profile';
-import { MailMe, PhoneMe } from './contact-me';
+import { MailMe } from './contact-me';
 
 export const Header = () => {
   return (
@@ -11,7 +11,6 @@ export const Header = () => {
       </div>
       <div className='mt-4 space-y-4'>
         <MailMe />
-        <PhoneMe />
       </div>
     </header>
   );
