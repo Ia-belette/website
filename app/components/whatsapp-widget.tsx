@@ -7,7 +7,7 @@ import { DGIcon } from './dg-icon';
 export const Widget = () => (
   <WhatsAppWidget
     CompanyIcon={DGIcon}
-    phoneNumber={process.env.NEXT_PUBLIC_PHONE_NUMBER}
+    phoneNumber={'+330661107720'}
     companyName='Dereje'
     sendButtonText='Envoyer'
     replyTimeText='Réponse généralement dans la journée'
