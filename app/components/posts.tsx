@@ -11,7 +11,7 @@ export const Posts = () => {
 
   return (
     <section>
-      <h2 className='md:px-4 md:pt-4'>
+      <h2 className='pt-4 md:px-4'>
         <span className='text-1xl font-medium text-white/80'>Posts</span>
       </h2>
       {posts.map((post) => (
