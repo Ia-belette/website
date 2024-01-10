@@ -1,4 +1,4 @@
-import { Mail, Phone } from 'lucide-react';
+import { Github, Mail, Phone } from 'lucide-react';
 
 export const MailMe = () => (
   <a
@@ -24,5 +24,16 @@ export const PhoneMe = () => (
       aria-hidden={true}
     />{' '}
     06 61 10 77 20
+  </a>
+);
+export const GHLink = () => (
+  <a
+    href='https://github.com/Dereje-getu-tadesse-10'
+    className='mt-2 flex items-center gap-2 text-white/75 hover:text-white/90'
+    aria-label='Github'
+    aria-describedby='Github'
+    aria-labelledby='Github'
+  >
+    <Github /> Dereje Getu Tadesse 10
   </a>
 );

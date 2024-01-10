@@ -1,6 +1,6 @@
 import { Spotify } from './spotify';
 import { Profile } from './profile';
-import { MailMe } from './contact-me';
+import { GHLink, MailMe } from './contact-me';
 
 export const Header = () => {
   return (
@@ -11,6 +11,7 @@ export const Header = () => {
       </div>
       <div className='mt-4 space-y-4'>
         <MailMe />
+        <GHLink />
       </div>
     </header>
   );
