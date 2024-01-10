@@ -68,7 +68,6 @@ export default function RootLayout({
         )}
       >
         {children}
-        <Widget />
       </body>
     </html>
   );
