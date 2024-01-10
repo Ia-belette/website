@@ -34,6 +34,6 @@ export const GHLink = () => (
     aria-describedby='Github'
     aria-labelledby='Github'
   >
-    <Github /> Dereje Getu Tadesse 10
+    <Github size={16} aria-hidden={true} /> Dereje Getu Tadesse 10
   </a>
 );
